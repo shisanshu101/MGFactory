@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  MGFactory
+//
+//  Created by 一只狗 on 2019/7/3.
+//  Copyright © 2019 longdian. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "MGContants.h"
+#import "MGPodsContants.h"
+
+
+#endif /* PrefixHeader_pch */
