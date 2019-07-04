@@ -15,7 +15,7 @@
 #import "NSArray+MG.h"
 #import "NSString+MG.h"
 
-
-
+#import "MGApiHelper.h"
+#import "MGApi.h"
 
 #endif /* MGContants_h */

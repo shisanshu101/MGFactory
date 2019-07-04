@@ -10,6 +10,10 @@
 		1C047EFC78AEF0B651FD3AEB /* libPods-MGFactoryUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F55D66FD4CFB5BD0DA408C /* libPods-MGFactoryUITests.a */; };
 		77C5D6874F2942946FE5578E /* libPods-MGFactoryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F86E36483F21D38CC3721953 /* libPods-MGFactoryTests.a */; };
 		7BC680C71D3B630A5E76E42C /* libPods-MGFactory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D722A249AB21BAC34715C4 /* libPods-MGFactory.a */; };
+		B9AC628022CDCABC003DCB61 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC627F22CDCABC003DCB61 /* BaseTableViewController.m */; };
+		B9AC628322CDCD2B003DCB61 /* MGApiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC628222CDCD2B003DCB61 /* MGApiHelper.m */; };
+		B9AC628722CDCE94003DCB61 /* MGApi.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC628622CDCE94003DCB61 /* MGApi.m */; };
+		B9AC628D22CDD8E1003DCB61 /* MGApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC628C22CDD8E1003DCB61 /* MGApiClient.m */; };
 		B9E5D13322CC47F8005790F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E5D13222CC47F8005790F9 /* AppDelegate.m */; };
 		B9E5D13922CC47F8005790F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E5D13722CC47F8005790F9 /* Main.storyboard */; };
 		B9E5D13B22CC47F9005790F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E5D13A22CC47F9005790F9 /* Assets.xcassets */; };
@@ -152,6 +156,14 @@
 		423E13685ACFCFA6774DBB66 /* Pods-MGFactoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGFactoryTests.debug.xcconfig"; path = "Target Support Files/Pods-MGFactoryTests/Pods-MGFactoryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4A0251334BC1A997269AFFDF /* Pods-MGFactory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGFactory.debug.xcconfig"; path = "Target Support Files/Pods-MGFactory/Pods-MGFactory.debug.xcconfig"; sourceTree = "<group>"; };
 		56FCC5805FEAA08F46F40190 /* Pods-MGFactoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGFactoryUITests.release.xcconfig"; path = "Target Support Files/Pods-MGFactoryUITests/Pods-MGFactoryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B9AC627E22CDCABC003DCB61 /* BaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		B9AC627F22CDCABC003DCB61 /* BaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		B9AC628122CDCD2B003DCB61 /* MGApiHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGApiHelper.h; sourceTree = "<group>"; };
+		B9AC628222CDCD2B003DCB61 /* MGApiHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGApiHelper.m; sourceTree = "<group>"; };
+		B9AC628522CDCE94003DCB61 /* MGApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGApi.h; sourceTree = "<group>"; };
+		B9AC628622CDCE94003DCB61 /* MGApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGApi.m; sourceTree = "<group>"; };
+		B9AC628B22CDD8E1003DCB61 /* MGApiClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGApiClient.h; sourceTree = "<group>"; };
+		B9AC628C22CDD8E1003DCB61 /* MGApiClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGApiClient.m; sourceTree = "<group>"; };
 		B9E5D12E22CC47F8005790F9 /* MGFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E5D13122CC47F8005790F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B9E5D13222CC47F8005790F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -381,6 +393,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B98EB0D322CC98C60049E530 /* MGApi */ = {
+			isa = PBXGroup;
+			children = (
+				B9AC628522CDCE94003DCB61 /* MGApi.h */,
+				B9AC628622CDCE94003DCB61 /* MGApi.m */,
+				B9AC628122CDCD2B003DCB61 /* MGApiHelper.h */,
+				B9AC628222CDCD2B003DCB61 /* MGApiHelper.m */,
+				B9AC628B22CDD8E1003DCB61 /* MGApiClient.h */,
+				B9AC628C22CDD8E1003DCB61 /* MGApiClient.m */,
+			);
+			path = MGApi;
+			sourceTree = "<group>";
+		};
 		B9E5D12522CC47F8005790F9 = {
 			isa = PBXGroup;
 			children = (
@@ -440,8 +465,8 @@
 		B9E5D16322CC4AD0005790F9 /* MGAllCommon */ = {
 			isa = PBXGroup;
 			children = (
+				B98EB0D322CC98C60049E530 /* MGApi */,
 				B9E5D27F22CC7A20005790F9 /* MGAllImage */,
-				B9E5D27E22CC79C0005790F9 /* MGApi */,
 				B9E5D27922CC77D2005790F9 /* MGTools */,
 				B9E5D27822CC778E005790F9 /* MGConstants */,
 				B9E5D1F422CC5C3F005790F9 /* Package */,
@@ -465,6 +490,8 @@
 				B9E5D16622CC4B1E005790F9 /* BaseTabBarController.m */,
 				B9E5D16522CC4B1E005790F9 /* BaseViewController.h */,
 				B9E5D16922CC4B1E005790F9 /* BaseViewController.m */,
+				B9AC627E22CDCABC003DCB61 /* BaseTableViewController.h */,
+				B9AC627F22CDCABC003DCB61 /* BaseTableViewController.m */,
 			);
 			path = BaseFile;
 			sourceTree = "<group>";
@@ -513,8 +540,8 @@
 		B9E5D19122CC54C9005790F9 /* Tabbar4 */ = {
 			isa = PBXGroup;
 			children = (
-				B9E5D19222CC54C9005790F9 /* FourViewController.m */,
 				B9E5D19322CC54C9005790F9 /* FourViewController.h */,
+				B9E5D19222CC54C9005790F9 /* FourViewController.m */,
 			);
 			path = Tabbar4;
 			sourceTree = "<group>";
@@ -871,13 +898,6 @@
 				B9E5D27C22CC77E0005790F9 /* Permission.m */,
 			);
 			path = "权限访问";
-			sourceTree = "<group>";
-		};
-		B9E5D27E22CC79C0005790F9 /* MGApi */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MGApi;
 			sourceTree = "<group>";
 		};
 		B9E5D27F22CC7A20005790F9 /* MGAllImage */ = {
@@ -1262,6 +1282,8 @@
 				B9E5D1ED22CC54C9005790F9 /* TestVC.m in Sources */,
 				B9E5D24522CC5D36005790F9 /* LDTimerAction.m in Sources */,
 				B9E5D1E222CC54C9005790F9 /* RecognizeSimultaneousTableView.m in Sources */,
+				B9AC628022CDCABC003DCB61 /* BaseTableViewController.m in Sources */,
+				B9AC628722CDCE94003DCB61 /* MGApi.m in Sources */,
 				B9E5D1E522CC54C9005790F9 /* MGTableViewHoverVC.m in Sources */,
 				B9E5D1E822CC54C9005790F9 /* MGAlertVC.m in Sources */,
 				B9E5D17222CC4B1F005790F9 /* BaseBarItemView.m in Sources */,
@@ -1278,8 +1300,10 @@
 				B9E5D1D622CC54C9005790F9 /* FourViewController.m in Sources */,
 				B9E5D14122CC47F9005790F9 /* main.m in Sources */,
 				B9E5D1D522CC54C9005790F9 /* ThirdViewController.m in Sources */,
+				B9AC628D22CDD8E1003DCB61 /* MGApiClient.m in Sources */,
 				B9E5D1D722CC54C9005790F9 /* FiveViewController.m in Sources */,
 				B9E5D1EB22CC54C9005790F9 /* UICollectionViewTestVC.m in Sources */,
+				B9AC628322CDCD2B003DCB61 /* MGApiHelper.m in Sources */,
 				B9E5D24222CC5D36005790F9 /* AllViewInit.m in Sources */,
 				B9E5D13322CC47F8005790F9 /* AppDelegate.m in Sources */,
 				B9E5D17A22CC530B005790F9 /* UIImage+MG.m in Sources */,

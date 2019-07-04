@@ -18,6 +18,17 @@
     [super viewDidLoad];
     self.titleLabel.text = @"商城";
     self.leftButton.hidden = YES;
+    [self getData];
+}
+
+-(void)getData{
+     NSString *url = [NSString stringWithFormat:@"%@%@",HEADURL,API_URL_New_Weibo_indexInfo];
+    
+    [MGApiHelper GetUrl:url withParams:@{} success:^(id  _Nullable responseObject) {
+        NSLog(@"%@",responseObject);
+    } fail:^(NSError * _Nullable error) {
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
