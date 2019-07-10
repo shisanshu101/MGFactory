@@ -17,4 +17,8 @@ NSString *const YULIN_APP_VERSION = @"sociax_30.0";
 
 NSString *const API_URL_New_Weibo_indexInfo = @"api.php?mod=Index&act=index";//新的首页顶部信息接口
 
+NSString *const Api_URL_MallStore_upload_reg = @"api.php?mod=MallStore&act=upload&type=reg";//店铺注册时附件上传
+
+
+
 @end

@@ -8,7 +8,7 @@ target 'MGFactory' do
   # Pods for MGFactory
   pod 'AFNetworking'
   pod 'YYKit'
-  pod 'SDWebImage'
+  pod 'SDWebImage', '~> 5.0'
   pod 'FDFullscreenPopGesture'
   pod 'MJExtension'
   pod 'MJRefresh'

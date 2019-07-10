@@ -87,6 +87,7 @@
     label.text = title;
     label.textColor = [UIColor blackColor];
     label.textColor = textColor;
+    label.backgroundColor = backColor;
     label.font = [UIFont systemFontOfSize:font];
     label.textAlignment = NSTextAlignmentCenter;
     label.userInteractionEnabled = YES;

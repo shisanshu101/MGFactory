@@ -10,6 +10,13 @@
 		1C047EFC78AEF0B651FD3AEB /* libPods-MGFactoryUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F55D66FD4CFB5BD0DA408C /* libPods-MGFactoryUITests.a */; };
 		77C5D6874F2942946FE5578E /* libPods-MGFactoryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F86E36483F21D38CC3721953 /* libPods-MGFactoryTests.a */; };
 		7BC680C71D3B630A5E76E42C /* libPods-MGFactory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D722A249AB21BAC34715C4 /* libPods-MGFactory.a */; };
+		B9313D9922D4800C0023257F /* LDUploadImageDelete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9313D9722D4800C0023257F /* LDUploadImageDelete@2x.png */; };
+		B9313D9A22D4800C0023257F /* LDUploadImageDelete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9313D9822D4800C0023257F /* LDUploadImageDelete@3x.png */; };
+		B96A28CC22D094C400982799 /* MGUpLoadPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B96A28CB22D094C400982799 /* MGUpLoadPhotoView.m */; };
+		B96A28CF22D094D700982799 /* MGUpLoadPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B96A28CE22D094D700982799 /* MGUpLoadPhotoModel.m */; };
+		B96A28D222D0958C00982799 /* MGUpLoadPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B96A28D122D0958C00982799 /* MGUpLoadPhotoCell.m */; };
+		B96A28D522D0A3E400982799 /* MGUpLoadPhotoMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B96A28D422D0A3E400982799 /* MGUpLoadPhotoMoreCell.m */; };
+		B96A28D722D0A68900982799 /* NewAddPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = B96A28D622D0A68900982799 /* NewAddPhoto.png */; };
 		B9AC628022CDCABC003DCB61 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC627F22CDCABC003DCB61 /* BaseTableViewController.m */; };
 		B9AC628322CDCD2B003DCB61 /* MGApiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC628222CDCD2B003DCB61 /* MGApiHelper.m */; };
 		B9AC628722CDCE94003DCB61 /* MGApi.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC628622CDCE94003DCB61 /* MGApi.m */; };
@@ -156,6 +163,17 @@
 		423E13685ACFCFA6774DBB66 /* Pods-MGFactoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGFactoryTests.debug.xcconfig"; path = "Target Support Files/Pods-MGFactoryTests/Pods-MGFactoryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4A0251334BC1A997269AFFDF /* Pods-MGFactory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGFactory.debug.xcconfig"; path = "Target Support Files/Pods-MGFactory/Pods-MGFactory.debug.xcconfig"; sourceTree = "<group>"; };
 		56FCC5805FEAA08F46F40190 /* Pods-MGFactoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGFactoryUITests.release.xcconfig"; path = "Target Support Files/Pods-MGFactoryUITests/Pods-MGFactoryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B9313D9722D4800C0023257F /* LDUploadImageDelete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LDUploadImageDelete@2x.png"; sourceTree = "<group>"; };
+		B9313D9822D4800C0023257F /* LDUploadImageDelete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LDUploadImageDelete@3x.png"; sourceTree = "<group>"; };
+		B96A28CA22D094C400982799 /* MGUpLoadPhotoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGUpLoadPhotoView.h; sourceTree = "<group>"; };
+		B96A28CB22D094C400982799 /* MGUpLoadPhotoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGUpLoadPhotoView.m; sourceTree = "<group>"; };
+		B96A28CD22D094D700982799 /* MGUpLoadPhotoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGUpLoadPhotoModel.h; sourceTree = "<group>"; };
+		B96A28CE22D094D700982799 /* MGUpLoadPhotoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGUpLoadPhotoModel.m; sourceTree = "<group>"; };
+		B96A28D022D0958C00982799 /* MGUpLoadPhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGUpLoadPhotoCell.h; sourceTree = "<group>"; };
+		B96A28D122D0958C00982799 /* MGUpLoadPhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGUpLoadPhotoCell.m; sourceTree = "<group>"; };
+		B96A28D322D0A3E400982799 /* MGUpLoadPhotoMoreCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGUpLoadPhotoMoreCell.h; sourceTree = "<group>"; };
+		B96A28D422D0A3E400982799 /* MGUpLoadPhotoMoreCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGUpLoadPhotoMoreCell.m; sourceTree = "<group>"; };
+		B96A28D622D0A68900982799 /* NewAddPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewAddPhoto.png; sourceTree = "<group>"; };
 		B9AC627E22CDCABC003DCB61 /* BaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
 		B9AC627F22CDCABC003DCB61 /* BaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		B9AC628122CDCD2B003DCB61 /* MGApiHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGApiHelper.h; sourceTree = "<group>"; };
@@ -391,6 +409,24 @@
 				39F55D66FD4CFB5BD0DA408C /* libPods-MGFactoryUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B96A28C022D091BC00982799 /* 上传图片视图封装 */ = {
+			isa = PBXGroup;
+			children = (
+				B9313D9722D4800C0023257F /* LDUploadImageDelete@2x.png */,
+				B9313D9822D4800C0023257F /* LDUploadImageDelete@3x.png */,
+				B96A28D622D0A68900982799 /* NewAddPhoto.png */,
+				B96A28CA22D094C400982799 /* MGUpLoadPhotoView.h */,
+				B96A28CB22D094C400982799 /* MGUpLoadPhotoView.m */,
+				B96A28CD22D094D700982799 /* MGUpLoadPhotoModel.h */,
+				B96A28CE22D094D700982799 /* MGUpLoadPhotoModel.m */,
+				B96A28D022D0958C00982799 /* MGUpLoadPhotoCell.h */,
+				B96A28D122D0958C00982799 /* MGUpLoadPhotoCell.m */,
+				B96A28D322D0A3E400982799 /* MGUpLoadPhotoMoreCell.h */,
+				B96A28D422D0A3E400982799 /* MGUpLoadPhotoMoreCell.m */,
+			);
+			path = "上传图片视图封装";
 			sourceTree = "<group>";
 		};
 		B98EB0D322CC98C60049E530 /* MGApi */ = {
@@ -692,6 +728,7 @@
 		B9E5D1F422CC5C3F005790F9 /* Package */ = {
 			isa = PBXGroup;
 			children = (
+				B96A28C022D091BC00982799 /* 上传图片视图封装 */,
 				B9E5D1F822CC5D36005790F9 /* 切圆角 */,
 				B9E5D1F522CC5D36005790F9 /* AllViewInit(所有控件视图初始化) */,
 				B9E5D1FB22CC5D36005790F9 /* CalculationTool(富文本计算工具) */,
@@ -1086,6 +1123,7 @@
 				B9E5D2B522CC7A20005790F9 /* test1.jpg in Resources */,
 				B9E5D26022CC5D36005790F9 /* 13退款售后相关@3x.png in Resources */,
 				B9E5D2AC22CC7A20005790F9 /* tabbar5@3x.png in Resources */,
+				B9313D9A22D4800C0023257F /* LDUploadImageDelete@3x.png in Resources */,
 				B9E5D26222CC5D36005790F9 /* 14购物车@3x.png in Resources */,
 				B9E5D2A822CC7A20005790F9 /* tabbar3-selest@2x.png in Resources */,
 				B9E5D25E22CC5D36005790F9 /* 17店铺相关@3x.png in Resources */,
@@ -1095,6 +1133,7 @@
 				B9E5D24922CC5D36005790F9 /* 8地址相关@3x.png in Resources */,
 				B9E5D26322CC5D36005790F9 /* 10订单相关@2x.png in Resources */,
 				B9E5D2A722CC7A20005790F9 /* tabbar5@2x.png in Resources */,
+				B9313D9922D4800C0023257F /* LDUploadImageDelete@2x.png in Resources */,
 				B9E5D2B022CC7A20005790F9 /* tabbar3@3x.png in Resources */,
 				B9E5D2B322CC7A20005790F9 /* NearShopBack@3x.png in Resources */,
 				B9E5D2A122CC7A20005790F9 /* tabbar5-selest@2x.png in Resources */,
@@ -1102,6 +1141,7 @@
 				B9E5D2AA22CC7A20005790F9 /* tabbar4-selest@2x.png in Resources */,
 				B9E5D13B22CC47F9005790F9 /* Assets.xcassets in Resources */,
 				B9E5D25822CC5D36005790F9 /* 3帖子相关@2x.png in Resources */,
+				B96A28D722D0A68900982799 /* NewAddPhoto.png in Resources */,
 				B9E5D26422CC5D36005790F9 /* 10订单相关@3x.png in Resources */,
 				B9E5D26122CC5D36005790F9 /* 14购物车@2x.png in Resources */,
 				B9E5D26A22CC5D36005790F9 /* fensi_noplate@2x.png in Resources */,
@@ -1170,20 +1210,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MGFactory/Pods-MGFactory-resources.sh",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-MGFactory/Pods-MGFactory-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-MGFactory/Pods-MGFactory-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1266,6 +1297,7 @@
 				B9E5D1E322CC54C9005790F9 /* YLNavHolderBaseView.m in Sources */,
 				B9E5D1E022CC54C9005790F9 /* MGIMGScrollAndEnlargeVC.m in Sources */,
 				B9E5D1DF22CC54C9005790F9 /* SecondViewController.m in Sources */,
+				B96A28D522D0A3E400982799 /* MGUpLoadPhotoMoreCell.m in Sources */,
 				B9E5D24722CC5D36005790F9 /* MGDefaultPageView.m in Sources */,
 				B9E5D17322CC4B1F005790F9 /* BaseBarBackView.m in Sources */,
 				B9E5D1EC22CC54C9005790F9 /* UICollectionViewTestCell.m in Sources */,
@@ -1286,6 +1318,7 @@
 				B9AC628722CDCE94003DCB61 /* MGApi.m in Sources */,
 				B9E5D1E522CC54C9005790F9 /* MGTableViewHoverVC.m in Sources */,
 				B9E5D1E822CC54C9005790F9 /* MGAlertVC.m in Sources */,
+				B96A28D222D0958C00982799 /* MGUpLoadPhotoCell.m in Sources */,
 				B9E5D17222CC4B1F005790F9 /* BaseBarItemView.m in Sources */,
 				B9E5D1E722CC54C9005790F9 /* UIEffectsConstants.m in Sources */,
 				B9E5D18622CC536D005790F9 /* UIColor+MG.m in Sources */,
@@ -1294,6 +1327,7 @@
 				B9E5D1EA22CC54C9005790F9 /* FirstViewController.m in Sources */,
 				B9E5D1DE22CC54C9005790F9 /* MGIMagePickerVC.m in Sources */,
 				B9E5D1D822CC54C9005790F9 /* SecondViewConstants.m in Sources */,
+				B96A28CC22D094C400982799 /* MGUpLoadPhotoView.m in Sources */,
 				B9E5D18322CC535A005790F9 /* NSDictionary+MG.m in Sources */,
 				B9E5D17D22CC5323005790F9 /* NSString+MG.m in Sources */,
 				B9E5D1E422CC54C9005790F9 /* YLNavHolderBaseListView.m in Sources */,
@@ -1305,6 +1339,7 @@
 				B9E5D1EB22CC54C9005790F9 /* UICollectionViewTestVC.m in Sources */,
 				B9AC628322CDCD2B003DCB61 /* MGApiHelper.m in Sources */,
 				B9E5D24222CC5D36005790F9 /* AllViewInit.m in Sources */,
+				B96A28CF22D094D700982799 /* MGUpLoadPhotoModel.m in Sources */,
 				B9E5D13322CC47F8005790F9 /* AppDelegate.m in Sources */,
 				B9E5D17A22CC530B005790F9 /* UIImage+MG.m in Sources */,
 				B9E5D17022CC4B1F005790F9 /* BaseBarItemModel.m in Sources */,
@@ -1486,6 +1521,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MGFactory/PrefixHeader.pch";
 				INFOPLIST_FILE = MGFactory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1507,6 +1543,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MGFactory/PrefixHeader.pch";
 				INFOPLIST_FILE = MGFactory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

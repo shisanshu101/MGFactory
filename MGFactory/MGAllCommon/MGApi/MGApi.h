@@ -19,6 +19,8 @@ extern NSString * const YULIN_APP_VERSION;
 
 extern NSString *const API_URL_New_Weibo_indexInfo;//新的首页顶部信息接口
 
+extern NSString *const Api_URL_MallStore_upload_reg;//店铺注册时附件上传
+
 @end
 
 NS_ASSUME_NONNULL_END

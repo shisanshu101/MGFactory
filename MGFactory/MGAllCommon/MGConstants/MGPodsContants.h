@@ -10,5 +10,6 @@
 #define MGPodsContants_h
 
 #import "YYKit.h"
+#import <SDWebImage/SDWebImage.h>
 
 #endif /* MGPodsContants_h */
