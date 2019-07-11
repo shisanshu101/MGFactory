@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2B192579-2FF0-4DA9-ABAF-FD740B68E70E"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "73541183-CB9B-49F4-8C7B-F8290718D475"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA421AA3-35DD-4C32-B5F6-38EA99427F57"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MGFactory/MGAllCommon/Package/&#x4e0a;&#x4f20;&#x56fe;&#x7247;&#x89c6;&#x56fe;&#x5c01;&#x88c5;/MGUpLoadPhotoCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "-setUploadPhotModel:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E629320E-E097-4A4F-AE9B-98F183F28DEF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MGFactory/MGAllCommon/MGApi/MGApiHelper.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "+PostImgWithUrl:withParams:withImgArr:success:progress:fail:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E629320E-E097-4A4F-AE9B-98F183F28DEF - dd75cffc1bf5828e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MGApiHelper PostImgWithUrl:withParams:withImgArr:success:progress:fail:]"
+                  moduleName = "MGFactory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yizhigudandegou/Desktop/MGFactory/MGFactory/MGAllCommon/MGApi/MGApiHelper.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "E629320E-E097-4A4F-AE9B-98F183F28DEF - f08b06174bac6eff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__74+[MGApiHelper PostImgWithUrl:withParams:withImgArr:success:progress:fail:]_block_invoke"
+                  moduleName = "MGFactory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yizhigudandegou/Desktop/MGFactory/MGFactory/MGAllCommon/MGApi/MGApiHelper.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2FB9309-0D56-41DC-9C08-48ACD6506BD4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MGFactory/MGAllCommon/MGApi/MGApiHelper.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "+PostImgWithUrl:withParams:withImgArr:success:progress:fail:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
