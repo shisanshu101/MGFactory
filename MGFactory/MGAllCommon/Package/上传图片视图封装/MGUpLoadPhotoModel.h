@@ -16,6 +16,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// 上传Url
 @property(nonatomic,copy)NSString *uploadUrl;
 
+/// 上传成功
+@property(nonatomic,assign)BOOL uploadSuccess;
+//自定义字段
+@property(nonatomic,assign)BOOL isloading;
+@property(nonatomic,copy)NSString *resultImgId;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -19,9 +19,13 @@ static MGApiClient *_sharedClient = nil;
         _sharedClient = [MGApiClient new];
         _sharedClient.securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
         _sharedClient.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json",@"text/plain", @"text/json", @"text/javascript", @"text/html", nil];
-        [_sharedClient.requestSerializer setValue:@"http://longyu.cc/ios" forHTTPHeaderField:@"Referer"];
-        _sharedClient.requestSerializer = [AFHTTPRequestSerializer serializer];
+
+        _sharedClient.requestSerializer = [AFJSONRequestSerializer serializer];
+        [_sharedClient.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+        [_sharedClient.requestSerializer setValue:[NSString stringWithFormat:@"Basic %@",[@"liangyu:liangyu123" base64EncodedString]] forHTTPHeaderField:@"Authorization"];
+//        _sharedClient.requestSerializer = [AFHTTPRequestSerializer serializer];
         _sharedClient.requestSerializer.timeoutInterval = 10;
+
     });
     return _sharedClient;
 }

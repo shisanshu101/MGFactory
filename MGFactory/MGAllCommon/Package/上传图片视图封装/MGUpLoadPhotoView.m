@@ -47,6 +47,26 @@
     [self.collectionView reloadData];
 }
 
+-(BOOL)isFinishUpload{
+    for (MGUpLoadPhotoModel *photomodel in self.dataArr) {
+        if (!photomodel.isloading) {
+            [self.vc.view showTipHubInCenterView:self.vc.view tipString:@"图片正在上传中..."];
+            return NO;
+        }
+    }
+    return YES;
+}
+
+-(NSArray *)getImgIdArr{
+    NSMutableArray *tempArr = [NSMutableArray new];
+    for (MGUpLoadPhotoModel *photomodel in self.dataArr) {
+        if ([NSString isNotEmptyString:photomodel.resultImgId]) {
+            [tempArr addObject:photomodel.resultImgId];
+        }
+    }
+    return tempArr;
+}
+
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
    
     if (_notAddImgAction) {

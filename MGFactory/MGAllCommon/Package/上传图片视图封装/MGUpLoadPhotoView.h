@@ -40,6 +40,9 @@ typedef NS_ENUM(NSInteger, UploadPhotoScrollDirection) {
 
 -(void)refereshUI;
 
+-(BOOL)isFinishUpload;
+
+-(NSArray *)getImgIdArr;
 @end
 
 NS_ASSUME_NONNULL_END

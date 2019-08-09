@@ -28,6 +28,18 @@
         DebugLog(@"点击了首页");
     }]];
     
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 50, 50)];
+    NSString *titleStr = NSLocalizedString(@"click", nil);
+    [btn setTitle:titleStr forState:UIControlStateNormal];
+    [self.view addSubview:btn];
+    
+    
+    [MGApiHelper PostUrlWithUrl:@"http://gateway.jarppk.com/Sailboat/api/members" withParams:@{@"username":@"aaaggg",@"password":@"123123"} success:^(id  _Nullable responseObject) {
+        NSString *str= [NSString stringWithFormat:@"%@",responseObject];
+        NSLog(@"%@", str);
+    } fail:^(NSError * _Nullable error) {
+        
+    }];
 }
 
 -(void)rightButtonClick:(UIButton *)sender{

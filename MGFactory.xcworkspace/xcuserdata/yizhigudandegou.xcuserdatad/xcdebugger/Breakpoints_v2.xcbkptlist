@@ -23,6 +23,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MGFactory/MGAllCommon/Package/&#x4e0a;&#x4f20;&#x56fe;&#x7247;&#x89c6;&#x56fe;&#x5c01;&#x88c5;/MGUpLoadPhotoCell.m"
+            timestampString = "0"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "71"
@@ -39,6 +40,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MGFactory/MGAllCommon/MGApi/MGApiHelper.m"
+            timestampString = "585137353.7456599"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "59"
@@ -47,7 +49,6 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "E629320E-E097-4A4F-AE9B-98F183F28DEF - dd75cffc1bf5828e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -55,6 +56,7 @@
                   moduleName = "MGFactory"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yizhigudandegou/Desktop/MGFactory/MGFactory/MGAllCommon/MGApi/MGApiHelper.m"
+                  timestampString = "585283083.3608741"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "59"
@@ -62,7 +64,6 @@
                   offsetFromSymbolStart = "456">
                </Location>
                <Location
-                  uuid = "E629320E-E097-4A4F-AE9B-98F183F28DEF - f08b06174bac6eff"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -70,6 +71,7 @@
                   moduleName = "MGFactory"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yizhigudandegou/Desktop/MGFactory/MGFactory/MGAllCommon/MGApi/MGApiHelper.m"
+                  timestampString = "585283083.362394"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "61"
@@ -87,11 +89,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MGFactory/MGAllCommon/MGApi/MGApiHelper.m"
+            timestampString = "585137353.745724"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "69"
             endingLineNumber = "69"
             landmarkName = "+PostImgWithUrl:withParams:withImgArr:success:progress:fail:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MGFactory/MGAllCommon/ProjectFile/Tabbar1/FirstViewController.m"
+            timestampString = "585456904.967303"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MGFactory/MGAllCommon/ProjectFile/Tabbar1/FirstViewController.m"
+            timestampString = "585456904.967635"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -31,7 +31,7 @@
 
 +(void)PostUrlWithUrl:(NSString *)urlStr withParams:(NSDictionary *)params success:(successBlock)success fail:(failBlock)fail{
     
-    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    AFHTTPSessionManager *manager = [MGApiClient shareClient];
     
     NSMutableDictionary *newParmsDic = [NSMutableDictionary dictionaryWithDictionary:params];
     [newParmsDic setObject:YULIN_APP_VERSION forKey:@"api_version"];
@@ -48,7 +48,7 @@
 
 +(void)PostImgWithUrl:(NSString *)urlStr withParams:(NSDictionary *)params withImgArr:(NSArray *)imgArr success:(successBlock)success progress:(progressBlock)progress fail:(failBlock)fail{
     
-    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    AFHTTPSessionManager *manager = [MGApiClient manager];
     
     NSMutableDictionary *newParmsDic = [NSMutableDictionary dictionaryWithDictionary:params];
    
